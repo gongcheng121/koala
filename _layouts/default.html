@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>一步步在GitHub上创建博客主页(2)</title>
+  {% include head.html %}
 </head>
 <body>
-{{content }}
+  {% include header.html %}
+  <div class="container">
+    <p class="intro">
+      {{ site.intro }}
+    </p>
+  {{ content }}
+
+  {% include footer.html %}
+  </div><!-- /.main -->
 </body>
 </html>

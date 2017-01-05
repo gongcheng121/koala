@@ -1,9 +1,4 @@
-
-.gitignore
-.idea/copyright/
-.idea/deployment.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/mygitblog.iml
-.idea/workspace.xml
-
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
